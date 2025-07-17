@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yaswitha - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .typed-text::after {
+      content: '|';
+      animation: blink 0.7s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 scroll-smooth">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow fixed w-full top-0 z-50">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-xl font-bold text-blue-600">Yaswitha</h1>
+      <ul class="flex space-x-6 text-sm font-medium">
+        <li><a href="home.html" class="text-blue-500">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-32">
+    <h2 class="text-4xl font-bold mb-6">Welcome to My Portfolio</h2>
+    <img src="C:\Users\latha\Pictures\my pic.jpg" alt="Profile" class="w-28 h-28 rounded-full shadow mb-6">
+    <h1 class="text-2xl font-bold mb-1">Yaswitha</h1>
+    <p class="text-gray-600 mb-2">Frontend Developer and designer </p>
+    <p class="italic text-gray-500 mb-6">"Transforming ideas into interactive digital experiences. "</p>
+    <a href="resume.pdf" download class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition">
+      Download Resume
+    </a>
+  </section>
+</body>
+</html>
